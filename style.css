@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  color: gray;
+  text-decoration: blink;
+  list-style:blink;
+  
+}
+video{
+  height="500"
+}
+html {
+    height: 100%;
+}
+
+body {
+    font-family: I am a sans, sans-serif;
+    font-size: 1.rem;
+    height: 100%;
+  
+}
+.grid-container {
+    box-shadow: 2px 2px 7px 0px Pink;
+    border-radius: 4px;
+    padding: 14px;
+    text-align: center;
+}
+
+.header {
+  height: auto;
+  width: auto;
+    grid-area: header;
+    background-color: black;
+  color:  white;
+}
+
+.menu_container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width:90%;
+  margin: auto;
+}
+.logo{
+  background-image: url(../Img/phone.jpg);
+  width:100px;
+  height: 56px;
+}
+.menu_links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  
+}
+.menu_link a: hover{
+  border-bottom: 3px solid red;
+  border-radius: 2px;
+  color: beige;
+}
+
+.sidebar{
+  height:auto;
+  width:475px;
+    grid-area: sidebar;
+    background-color: beige;
+  float: right;
+}
+
+.main{
+  height: auto;
+  width:475px;
+    grid-area: main;
+    background-color: beige;
+  float: left;
+}
+.contenedor{
+  margin: 0;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.contact {
+  padding-top: 20px;
+  background-color: : black;
+  padding-bottom: 0;
+}
+ .social-icon {
+  display: inline-block;
+  background-color: goldenrod;
+  color: gray;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: goldenrod;
+}
+
